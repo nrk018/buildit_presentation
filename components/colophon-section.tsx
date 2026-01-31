@@ -85,7 +85,7 @@ export function ColophonSection() {
     >
       {/* Section header — id="colophon" is used by the side nav for "CREDITS". */}
       <div ref={headerRef} className="mb-16">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">05 / Colophon</span>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">BUILDIT</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CREDITS</h2>
       </div>
 
@@ -95,15 +95,15 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Team</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
+            <li className="font-mono text-xs text-foreground/80">Reet Raj</li>
           </ul>
         </div>
 
         {/* Reviewers (in video) — people who gave feedback in your review video. */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Reviewers (in video)</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Project: Smart Campus Lost & Found</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
+            <li className="font-mono text-xs text-foreground/80"></li>
           </ul>
         </div>
 
@@ -111,7 +111,7 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">SPECIAL THANKS TO</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Professor X</li>
+            <li className="font-mono text-xs text-foreground/80">Nirmal Rajkumar</li>
             <li className="font-mono text-[8px] uppercase tracking-[0.2em] text-muted-foreground/60 mt-2">meet a professor for ideation (mandatory)</li>
           </ul>
         </div>
@@ -123,7 +123,7 @@ export function ColophonSection() {
         className="mt-24 pt-8 border-t border-border/20 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
       >
         <p className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
-          FANTASTIC 4 KICKOFF
+          Tech Stack: Next.js, Tailwind CSS, TypeScript
         </p>
         <p className="font-mono text-[10px] text-muted-foreground">lets BUILDIT</p>
       </div>

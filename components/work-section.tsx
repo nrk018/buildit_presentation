@@ -15,54 +15,30 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your solution steps. "span" controls grid cell size (e.g. col-span-2 row-span-2 for a big card). */
 const experiments = [
   {
-    title: "Project Posted",
+    title: "Report Lost Item",
     medium: "Step 1",
-    description: "Experienced developers publish real-world project ideas with clear objectives.",
+    description: "Students instantly report lost items with description, location, and image.",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "Learner Joins",
+    title: "Post Found Item",
     medium: "Step 2",
-    description: "Students enroll in a project based on their interest and skill level.",
+    description: "Anyone who finds an item can upload details to help owners recover it.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Learning Path Assigned",
+    title: "Smart Search & Match",
     medium: "Step 3",
-    description: "A structured roadmap is provided to guide what needs to be learned and built.",
+    description: "The system matches lost and found entries using category and keywords.",
     span: "col-span-1 row-span-2",
   },
   {
-    title: "Project Development",
+    title: "Connect Owner & Finder",
     medium: "Step 4",
-    description: "Learners work on tasks by writing and implementing code themselves.",
+    description: "Users directly contact each other to arrange safe item return.",
     span: "col-span-1 row-span-1",
   },
-  {
-    title: "Guidance & Review",
-    medium: "Step 5",
-    description: "Seniors review progress and provide direction where required.",
-    span: "col-span-2 row-span-1",
-  },
-  {
-    title: "Skill Validation",
-    medium: "Step 6",
-    description: "Skills are evaluated based on actual project contributions.",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "Portfolio Creation",
-    medium: "Step 7",
-    description: "Completed work is added as verified project experience.",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "Growth & Opportunities",
-    medium: "Step 8",
-    description: "Skilled users unlock advanced projects and career opportunities.",
-    span: "col-span-1 row-span-1",
-  },
-]
+];
 
 export function WorkSection() {
   const sectionRef = useRef<HTMLElement>(null)
