@@ -15,33 +15,33 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "High Service Costs for Students",
+    note: "Students pay expensive fees for tutoring, design work, and other services that drain their limited budgets.",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "Untapped Student Talent",
+    note: "Skilled students have valuable expertise but lack platforms to share or monetize their knowledge without formal employment.",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "Difficulty Finding Peer Help",
+    note: "Students struggle to find classmates with specific skills who are available and willing to help at the right time.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
+    title: "No Centralized Campus Exchange",
+    note: "Universities lack organized systems for students to discover and trade skills, leading to missed collaboration opportunities.",
   },
   {
     date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
+    title: "Trust and Quality Concerns",
+    note: "Without verified reviews or ratings, students hesitate to exchange skills with unknown peers, fearing wasted time.",
   },
   {
     date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
+    title: "Inefficient Skill Matching",
+    note: "Manual searching through class groups and forums wastes time when students could be instantly matched based on needs and availability.",
   },
 ]
 
@@ -57,7 +57,7 @@ export function SignalsSection() {
   /**
    * First useEffect: custom cursor. When the mouse moves over this section we move a
    * small circle to follow it. We add event listeners in the effect and remove them
-   * in the return (cleanup) so we don’t leak listeners when the component unmounts.
+   * in the return (cleanup) so we don't leak listeners when the component unmounts.
    */
   useEffect(() => {
     if (!sectionRef.current || !cursorRef.current) return
@@ -144,7 +144,7 @@ export function SignalsSection() {
 
   return (
     <section id="signals" ref={sectionRef} className="relative py-32 pl-6 md:pl-28">
-      {/* The dot that follows the mouse in this section; pointer-events-none so it doesn’t block clicks. */}
+      {/* The dot that follows the mouse in this section; pointer-events-none so it doesn't block clicks. */}
       <div
         ref={cursorRef}
         className={cn(

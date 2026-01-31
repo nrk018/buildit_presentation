@@ -1,7 +1,7 @@
 "use client"
 /**
  * MVP (Minimum Viable Product) section — where you list at least 4 things your product
- * will do first. Each MVP can have a highlighted word (e.g. "LEARNING", "MENTORSHIP")
+ * will do first. Each MVP can have a highlighted word (e.g. "PROFILES", "MARKETPLACE")
  * via titleParts with highlight: true. Edit the `mvps` array to match your project;
  * "align" alternates left/right for a zigzag layout.
  */
@@ -22,51 +22,51 @@ export function PrinciplesSection() {
     {
       number: "01",
       titleParts: [
-        { text: "MVP 1: Project-Based ", highlight: false },
-        { text: "LEARNING", highlight: true },
-        { text: " Core", highlight: false },
+        { text: "MVP 1: Student ", highlight: false },
+        { text: "PROFILES", highlight: true },
+        { text: " & Skill Listings", highlight: false },
       ],
-      description: "Project listing by mentors • Student project enrollment • Basic task structure • GitHub-based submissions • Manual review & feedback",
+      description: "User registration with student verification • Profile creation with skills offered and needed • Skill categorization (academic, creative, technical, language) • Bio and availability settings",
       align: "left",
     },
     {
       number: "02",
       titleParts: [
-        { text: "MVP 2: ", highlight: false },
-        { text: "MENTORSHIP", highlight: true },
-        { text: " & Progress Tracking", highlight: false },
+        { text: "MVP 2: Skill ", highlight: false },
+        { text: "MARKETPLACE", highlight: true },
+        { text: " & Discovery", highlight: false },
       ],
-      description: "Mentor–student assignment • Weekly progress check-ins • Simple skill tagging • Completion status tracking",
+      description: "Browse available skills by category • Search and filter functionality • View detailed skill provider profiles • Direct skill exchange proposals",
       align: "right",
     },
     {
       number: "03",
       titleParts: [
         { text: "MVP 3: ", highlight: false },
-        { text: "PORTFOLIO", highlight: true },
-        { text: " Generation", highlight: false },
+        { text: "MESSAGING", highlight: true },
+        { text: " & Scheduling", highlight: false },
       ],
-      description: "Auto-generated project portfolio • Tech stack display • Contribution summary • Shareable profile link",
+      description: "In-app direct messaging between users • Schedule matching to find common free time • Meeting coordination (online/offline) • Exchange confirmation system",
       align: "left",
     },
     {
       number: "04",
       titleParts: [
         { text: "MVP 4: ", highlight: false },
-        { text: "RECRUITER", highlight: true },
-        { text: " View (Lite Version)", highlight: false },
+        { text: "RATING", highlight: true },
+        { text: " & Trust System", highlight: false },
       ],
-      description: "View verified projects • Skill-based filtering • Contact / shortlist option",
+      description: "Post-exchange rating system • Written reviews and feedback • Trust score calculation • Verified exchange badges for active users",
       align: "right",
     },
     {
       number: "05",
       titleParts: [
-        { text: "MVP 5: ", highlight: false },
-        { text: "MONETIZATION", highlight: true },
-        { text: " Layer", highlight: false },
+        { text: "MVP 5: Exchange ", highlight: false },
+        { text: "TRACKING", highlight: true },
+        { text: " Dashboard", highlight: false },
       ],
-      description: "Project-based enrollment fee • Mentor payout system • Basic admin controls",
+      description: "Track ongoing and completed exchanges • Exchange history and statistics • Skill development progress tracker • Achievement badges system",
       align: "left",
     },
   ]

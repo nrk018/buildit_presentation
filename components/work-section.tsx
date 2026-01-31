@@ -1,6 +1,6 @@
 "use client"
 /**
- * The "Solution" section — where you explain how you’d solve the problems. It’s a grid of
+ * The "Solution" section — where you explain how you'd solve the problems. It's a grid of
  * steps that auto-highlights one by one when you scroll here, then highlights all, then
  * repeats. Good place to show your process or solution flow. Edit the `experiments` array
  * to change the steps (titles, descriptions, and grid sizes).
@@ -15,51 +15,51 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your solution steps. "span" controls grid cell size (e.g. col-span-2 row-span-2 for a big card). */
 const experiments = [
   {
-    title: "Project Posted",
+    title: "User Registration",
     medium: "Step 1",
-    description: "Experienced developers publish real-world project ideas with clear objectives.",
+    description: "Students create profiles with verified campus email, listing skills they offer and skills they need.",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "Learner Joins",
+    title: "Skill Discovery",
     medium: "Step 2",
-    description: "Students enroll in a project based on their interest and skill level.",
+    description: "Browse marketplace to find students offering needed skills, filtered by category and availability.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Learning Path Assigned",
+    title: "Direct Connection",
     medium: "Step 3",
-    description: "A structured roadmap is provided to guide what needs to be learned and built.",
+    description: "Send skill exchange proposals through in-app messaging with schedule preferences.",
     span: "col-span-1 row-span-2",
   },
   {
-    title: "Project Development",
+    title: "Schedule Match",
     medium: "Step 4",
-    description: "Learners work on tasks by writing and implementing code themselves.",
+    description: "System suggests common free time slots for both parties to coordinate exchanges.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Guidance & Review",
+    title: "Skill Exchange",
     medium: "Step 5",
-    description: "Seniors review progress and provide direction where required.",
+    description: "Meet online or in-person to trade skills: 1 hour of help for 1 hour received.",
     span: "col-span-2 row-span-1",
   },
   {
-    title: "Skill Validation",
+    title: "Review & Rate",
     medium: "Step 6",
-    description: "Skills are evaluated based on actual project contributions.",
+    description: "Both parties rate the exchange quality, building trust scores for future matches.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Portfolio Creation",
+    title: "Track Progress",
     medium: "Step 7",
-    description: "Completed work is added as verified project experience.",
+    description: "Dashboard shows exchange history, skills learned, and community contribution level.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Growth & Opportunities",
+    title: "Community Growth",
     medium: "Step 8",
-    description: "Skilled users unlock advanced projects and career opportunities.",
+    description: "Active users unlock premium features and get priority matching with verified partners.",
     span: "col-span-1 row-span-1",
   },
 ]
@@ -68,7 +68,7 @@ export function WorkSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const gridRef = useRef<HTMLDivElement>(null)
-  /** Which step is currently highlighted (0-based index), or null when we’re in "highlight all" phase. */
+  /** Which step is currently highlighted (0-based index), or null when we're in "highlight all" phase. */
   const [highlightedStep, setHighlightedStep] = useState<number | null>(0)
   /** When true, every card is highlighted at once (after cycling through each step). */
   const [highlightAll, setHighlightAll] = useState(false)
@@ -118,8 +118,8 @@ export function WorkSection() {
 
   /**
    * Auto-highlight cycling: when you scroll this section into view, we highlight step 0,
-   * then 1, 2, … then "highlight all", then start over. ScrollTrigger’s onEnter / onLeaveBack
-   * start the cycle; onLeave pauses it so we don’t run timers when you’re not looking.
+   * then 1, 2, … then "highlight all", then start over. ScrollTrigger's onEnter / onLeaveBack
+   * start the cycle; onLeave pauses it so we don't run timers when you're not looking.
    */
   useEffect(() => {
     if (!sectionRef.current) return
@@ -196,11 +196,11 @@ export function WorkSection() {
         <div>
           <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / SOLUTION</span>
           <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
-            WHAT WE BELIEVE WOULD <span className="text-accent">SOLVE</span> THESE <span className="text-red-500">PROBLEMS</span>
+            HOW SKILLSWAP <span className="text-accent">SOLVES</span> THESE <span className="text-red-500">PROBLEMS</span>
           </h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          after 12 hours of intense thoughtprocess
+          peer-to-peer skill exchange platform
         </p>
       </div>
 

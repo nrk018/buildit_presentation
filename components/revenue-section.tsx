@@ -1,9 +1,9 @@
 "use client"
 /**
- * Revenue model section — how your project might make money (or why it’s free). Same
+ * Revenue model section — how your project might make money (or why it's free). Same
  * pattern as the Problems section: a horizontal row of cards, custom cursor on hover,
  * and scroll-in animations. Edit the `revenueModels` array to describe your revenue
- * streams (or remove this section from the page if you don’t need it).
+ * streams (or remove this section from the page if you don't need it).
  */
 import { useRef, useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
@@ -15,20 +15,20 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your revenue ideas. Each item becomes one card in the horizontal scroll. */
 const revenueModels = [
   {
-    title: "Project-Based Commission",
-    description: "The platform earns a commission from the project enrollment fee paid by learners.",
+    title: "Freemium Model",
+    description: "Free basic skill exchanges with unlimited browsing. Premium tier at $2/month unlocks priority matching, verified badges, and unlimited exchanges.",
   },
   {
-    title: "Pro Subscription (AI-Powered Features)",
-    description: "Users can upgrade to a premium plan to access AI-assisted learning tools, code insights, and progress analytics.",
+    title: "Premium Features",
+    description: "Advanced scheduling tools, AI-powered skill recommendations, detailed analytics dashboard, and access to exclusive skill workshops.",
   },
   {
-    title: "Paid Mentorship Support",
-    description: "Learners can opt for additional one-on-one or on-demand mentor assistance for specific technical challenges.",
+    title: "Campus Partnerships",
+    description: "Institutional subscriptions for universities wanting to provide verified skill exchange platforms for their entire student body.",
   },
   {
-    title: "Micro-Revenue Streams",
-    description: "Small-value earnings generated through add-ons such as certifications, advanced project access, and premium learning tools.",
+    title: "Featured Listings",
+    description: "Allow skilled users to promote their profiles for better visibility to students seeking their specific expertise.",
   },
 ]
 
