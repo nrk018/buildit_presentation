@@ -20,56 +20,22 @@ export function PrinciplesSection() {
   /** Your MVP list. titleParts lets you mark which word gets the fancy highlight effect. */
   const mvps = [
     {
-      number: "01",
-      titleParts: [
-        { text: "MVP 1: Project-Based ", highlight: false },
-        { text: "LEARNING", highlight: true },
-        { text: " Core", highlight: false },
-      ],
-      description: "Project listing by mentors • Student project enrollment • Basic task structure • GitHub-based submissions • Manual review & feedback",
-      align: "left",
-    },
-    {
-      number: "02",
-      titleParts: [
-        { text: "MVP 2: ", highlight: false },
-        { text: "MENTORSHIP", highlight: true },
-        { text: " & Progress Tracking", highlight: false },
-      ],
-      description: "Mentor–student assignment • Weekly progress check-ins • Simple skill tagging • Completion status tracking",
-      align: "right",
-    },
-    {
-      number: "03",
-      titleParts: [
-        { text: "MVP 3: ", highlight: false },
-        { text: "PORTFOLIO", highlight: true },
-        { text: " Generation", highlight: false },
-      ],
-      description: "Auto-generated project portfolio • Tech stack display • Contribution summary • Shareable profile link",
-      align: "left",
-    },
-    {
-      number: "04",
-      titleParts: [
-        { text: "MVP 4: ", highlight: false },
-        { text: "RECRUITER", highlight: true },
-        { text: " View (Lite Version)", highlight: false },
-      ],
-      description: "View verified projects • Skill-based filtering • Contact / shortlist option",
-      align: "right",
-    },
-    {
-      number: "05",
-      titleParts: [
-        { text: "MVP 5: ", highlight: false },
-        { text: "MONETIZATION", highlight: true },
-        { text: " Layer", highlight: false },
-      ],
-      description: "Project-based enrollment fee • Mentor payout system • Basic admin controls",
-      align: "left",
-    },
-  ]
+    title: "Lost Item Reporting",
+    description: "Users can quickly report lost items with photos, category, and last-seen location.",
+  },
+  {
+    title: "Found Item Posting",
+    description: "Finders can upload details of recovered items to help owners locate them.",
+  },
+  {
+    title: "Smart Search",
+    description: "Students can search items by category, keywords, or location for faster recovery.",
+  },
+  {
+    title: "Direct Communication",
+    description: "Built-in contact system connects owners and finders securely.",
+  },
+  ];
 
   /**
    * Scroll animations: header slides in, then each MVP block slides in from left or right

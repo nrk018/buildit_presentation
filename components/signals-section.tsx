@@ -15,35 +15,25 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "Lost & Found Digital Void",
+    note: "Students lose over $500M worth of valuables annually on campuses. Current lost & found systems are fragmented, manual, and rarely used.",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "No Centralized Platform",
+    note: "There is no single digital system where students can report or search for lost and found items.",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "Low Recovery Rates",
+    note: "Nearly 70% of lost items never make it back to their owners due to lack of awareness and communication.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
+    title: "Manual & Inefficient Process",
+    note: "Current systems rely on notice boards and security desks, making recovery slow and unreliable.",
   },
-  {
-    date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
-  },
-  {
-    date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
-  },
-]
+];
 
 export function SignalsSection() {
   const scrollRef = useRef<HTMLDivElement>(null)
