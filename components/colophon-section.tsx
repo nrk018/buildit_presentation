@@ -130,7 +130,7 @@ export function ColophonSection() {
 
       {/* Feedback Form — replace the href with your actual form link and the label with something like "Give feedback". */}
       <div className="mt-12 text-center">
-        <a
+        <ag
           href="https://forms.gle/aiyJBKZ4ZMV4EJqS8"
           target="_blank"
           rel="noopener noreferrer"
