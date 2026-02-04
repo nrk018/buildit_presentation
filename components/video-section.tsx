@@ -78,7 +78,7 @@ export function VideoSection() {
         className="relative w-full max-w-4xl pr-6 md:pr-12 aspect-video bg-card border border-border/50 flex items-center justify-center"
       >
         <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-          Video placeholder — add your review video embed URL here
+          Video placeholder — add your review video embed URL here.
         </p>
       </div>
     </section>

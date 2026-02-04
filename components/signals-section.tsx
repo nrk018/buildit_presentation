@@ -15,33 +15,23 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "Users overspend without realizing",
+    note: "Students overspend and money feels 'MISSING' by the month end.",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "Budgeting becomes confusing",
+    note: "Income arrives, but no one knows exactly where it disappears.",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "People lose control over daily paisa management",
+    note: "Day-to-day spending slips out of control due to lack of real-time awareness.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
-  },
-  {
-    date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
-  },
-  {
-    date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
+    title: "Need for a secure, smart, all-in-one finance companion",
+    note: "Users want one trusted app to track, analyze, and guide every rupee.",
   },
 ]
 
