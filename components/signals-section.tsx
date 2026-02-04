@@ -16,7 +16,7 @@ const signals = [
   {
     date: "",
     title: "Users overspend without realizing",
-    note: "Students overspend and money feels 'MISSING' by the month end.",
+    note: "Users overspend and money feels 'MISSING' by the end of the month.",
   },
   {
     date: "",
