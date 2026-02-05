@@ -77,6 +77,7 @@ export function VideoSection() {
           style={{ border: "1px solid white", boxShadow: "0px 0px 30px rgba(169, 118, 81, 0.5)" }}
           src="https://www.youtube.com/embed/yZjtAanN2U0" 
           title="BUILDFOLIO review video" 
+          loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" 
           allowFullScreen>
