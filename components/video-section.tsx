@@ -70,17 +70,19 @@ export function VideoSection() {
       </div>
 
       {/* Video placeholder — replace this whole div with an <iframe> when you have your video embed URL. */}
-      <div>
-        <iframe 
-          width="948" 
-          height="535" 
-          style={{ border: "1px solid white", boxShadow: "0px 0px 30px rgba(169, 118, 81, 0.5)" }}
-          src="https://www.youtube.com/embed/yZjtAanN2U0" 
-          title="BUILDFOLIO review video" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerPolicy="strict-origin-when-cross-origin" 
-          allowFullScreen>
-        </iframe>
+      {/* Responsive Video Container */}
+      <div ref={videoWrapperRef} className="pr-6 md:pr-12 max-w-5xl">
+        <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-white/70 shadow-[0px_0px_30px_rgba(169,118,81,0.5)]">
+          <iframe 
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/yZjtAanN2U0" 
+            title="BUILDFOLIO review video" 
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin" 
+            allowFullScreen>
+          </iframe>
+        </div>
       </div>
     </section>
   )
