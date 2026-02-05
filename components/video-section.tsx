@@ -63,24 +63,22 @@ export function VideoSection() {
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
           PROJECT REVIEW <span className="text-accent">VIDEO</span>
         </h2>
-      </div>
-
-      {/* Instructional text — you can change or remove this. */}
-      <div className="mb-10 pr-6 md:pr-12 max-w-3xl">
-        <p className="font-mono text-sm text-muted-foreground leading-relaxed">
-          Make a video asking review of your project—how it is helpful to your customer who could use it, or in general to your friends. Take feedbacks and add it in your video.
-        </p>
-      </div>
-
       {/* Video placeholder — replace this whole div with an <iframe> when you have your video embed URL. */}
-      <div
-        ref={videoWrapperRef}
-        className="relative w-full max-w-4xl pr-6 md:pr-12 aspect-video bg-card border border-border/50 flex items-center justify-center"
-      >
-        <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-          Video placeholder — add your review video embed URL here
-        </p>
+      {/* Responsive Video Container */}
+      <div ref={videoWrapperRef} className="mt-12 pr-6 md:pr-12 max-w-5xl">
+        <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-white/70 shadow-[0px_0px_30px_rgba(169,118,81,0.5)]">
+          <iframe 
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/yZjtAanN2U0" 
+            title="BUILDFOLIO review video" 
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin" 
+            allowFullScreen>
+          </iframe>
+        </div>
       </div>
+    </div>
     </section>
   )
 }

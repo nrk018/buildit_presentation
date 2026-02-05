@@ -15,20 +15,20 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your revenue ideas. Each item becomes one card in the horizontal scroll. */
 const revenueModels = [
   {
-    title: "Project-Based Commission",
-    description: "The platform earns a commission from the project enrollment fee paid by learners.",
+    title: "The Freemium Tier",
+    description: "A free entry point offering standard templates and subdomains. It includes a mandatory 'Powered by BuildFolio' badge, turning every free user into a walking advertisement for the platform.",
   },
   {
-    title: "Pro Subscription (AI-Powered Features)",
-    description: "Users can upgrade to a premium plan to access AI-assisted learning tools, code insights, and progress analytics.",
+    title: "The Pro Subscription",
+    description: "The primary revenue engine. It unlocks custom domains (yourname.com), removes all platform branding, and provides detailed visitor analytics for serious professionals.",
   },
   {
-    title: "Paid Mentorship Support",
-    description: "Learners can opt for additional one-on-one or on-demand mentor assistance for specific technical challenges.",
+    title: "Pay-As-You-Go AI",
+    description: "Avoids locking users into expensive plans. We offer free daily credits for everyone, with optional $5 'Top-Up Packs' for users who need to generate bulk content instantly.",
   },
   {
-    title: "Micro-Revenue Streams",
-    description: "Small-value earnings generated through add-ons such as certifications, advanced project access, and premium learning tools.",
+    title: "The Ecosystem Ad Model",
+    description: "A future marketplace revenue stream. Freelancers pay to 'Boost' their profiles to the top of search results, while clients pay premium fees to highlight priority job postings to top-rated talent.",
   },
 ]
 
