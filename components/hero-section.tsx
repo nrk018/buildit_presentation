@@ -74,7 +74,7 @@ export function HeroSection() {
         {/* Wraps the flip-board title and mute button so they can share audio state. */}
         <SplitFlapAudioProvider>
           <div className="relative">
-            <SplitFlapText text="BUILDIT" speed={80} />
+            <SplitFlapText text="BUILDFOLIO" speed={90} />
             <div className="mt-4">
               <SplitFlapMuteToggle />
             </div>
@@ -82,38 +82,36 @@ export function HeroSection() {
         </SplitFlapAudioProvider>
 
         {/* Tagline — change this to match your project. */}
-        <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          BUILD SKILLS. BUILD PROJECTS. BUILD PROOF.
+        <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,2vw,2rem)] mt-4 tracking-wide">
+          DESIGN PORTFOLIOS. PERSONALIZE CONTENT. SHOWCASE SKILLS
         </h2>
 
         {/* Short description. Replace with your own pitch. */}
         <p className="mt-12 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed text-justify">
-          This is the template where you need to tinker around, change texts as per your project. Problems, solution, project review video, MVP (at least 4), revenue model if any, credits, then add a feedback form. Fix errors for extra points.
+          BuildFolio is the intelligent portfolio engine that turns your scattered digital footprint into a professional, unified identity. We replace messy Google Drive folders with verified, hosted case studies using AI-driven automation. No design skills required—just connect your work and launch a high-performance portfolio in under 60 seconds.
         </p>
 
         {/* Buttons: #signals scrolls to the Problems section on the same page; /lean-canvas is another route. */}
         <div className="mt-16 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 sm:gap-8">
           <a
-            href="#signals"
+            href="#work"
             className="group inline-flex items-center justify-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
-            <ScrambleTextOnHover text="VIEW MORE" as="span" duration={0.6} />
+            <ScrambleTextOnHover text="SOLUTION" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
           <a
-            href="/lean-canvas"
+            href="#principles"
             className="group inline-flex items-center justify-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
-            <ScrambleTextOnHover text="LEAN CANVAS" as="span" duration={0.6} />
+            <ScrambleTextOnHover text="MVP FEATURES" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45" />
           </a>
           <a
-            href="https://swj.builditmuj.club"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#revenue"
             className="group inline-flex items-center justify-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
-            <ScrambleTextOnHover text="PROTOTYPE" as="span" duration={0.6} />
+            <ScrambleTextOnHover text="REVENUE MODEl" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[400ms] ease-in-out group-hover:rotate-45 shrink-0" />
           </a>
         </div>
@@ -122,7 +120,7 @@ export function HeroSection() {
       {/* Floating info tag — event name / label, you can change the text. */}
       <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
         <div className="border border-border px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-          PITCH DECK SAMPLE | FANTASTIC 4 KICKOFF
+          PITCH DECK  | BUILDFOLIO
         </div>
       </div>
     </section>

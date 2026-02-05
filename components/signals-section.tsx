@@ -15,33 +15,28 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "Experts Aren't Designers",
+    note: "Great code and writing often get ignored because they are wrapped in an ugly presentation. Bad visuals will kill good work before it is even seen.",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "The Link Dump Crisis",
+    note: "Sending clients scattered links and zipped folders looks amateur. Clients do not have time to unzip files or dig through folders to find your value.",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "Design Overload",
+    note: "Generic website builders overwhelm users with infinite design choices. Freelancers waste weeks tweaking fonts and colors instead of shipping their work and getting hired.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
+    title: "The Verification Gap",
+    note: "Anyone can claim they know a skill on a resume. Without verified proof- like linked GitHub commits or live deployments—clients have no reason to trust that you actually did the work.",
   },
   {
     date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
-  },
-  {
-    date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
+    title: "Resumes Are Static",
+    note: "A PDF cannot run code, play a video, or show a live prototype. Static documents fail to capture the dynamic nature of modern creative work.",
   },
 ]
 

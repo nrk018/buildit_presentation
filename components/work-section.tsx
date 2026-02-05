@@ -15,51 +15,51 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your solution steps. "span" controls grid cell size (e.g. col-span-2 row-span-2 for a big card). */
 const experiments = [
   {
-    title: "Project Posted",
-    medium: "Step 1",
-    description: "Experienced developers publish real-world project ideas with clear objectives.",
+    title: "Smart Onboarding",
+    medium: '1',
+    description: "Generic builders force everyone to use the same template. BuildFolio changes its entire interface based on your role. Select 'Developer,' and the UI switches to code-focused inputs with GitHub integration. Select 'Designer,' and it prioritizes visual galleries and Behance sync. You never have to delete irrelevant sections—the tool is custom-built for your craft from the very first click.",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "Learner Joins",
-    medium: "Step 2",
-    description: "Students enroll in a project based on their interest and skill level.",
+    title: "One-Click Sync",
+    medium: '2',
+    description: "Connect GitHub or Figma APIs to import your entire work history instantly without manual entry.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Learning Path Assigned",
-    medium: "Step 3",
-    description: "A structured roadmap is provided to guide what needs to be learned and built.",
+    title: "AI Translation",
+    medium: '3',
+    description: "Context-Aware Narrative Engine: The hardest part of a portfolio is writing the text. Our AI adapts to your medium. For Developers, it translates code repositories into business case studies. For Creatives—like video editors and designers—it turns rough notes, software lists, and client briefs into professional process breakdowns. Whether you are explaining a complex algorithm or a cinematic color grade, the AI ensures your story is as professional as your work.",
     span: "col-span-1 row-span-2",
   },
   {
-    title: "Project Development",
-    medium: "Step 4",
-    description: "Learners work on tasks by writing and implementing code themselves.",
+    title: "Verified Proof",
+    medium: '4',
+    description: "Imported projects receive 'Verified Source' badges, proving to clients that you actually did the work.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Guidance & Review",
-    medium: "Step 5",
-    description: "Seniors review progress and provide direction where required.",
+    title: "Native Embeds",
+    medium: '5',
+    description: "Live prototypes, YouTube videos, and PDFs load directly on the page—no downloads required for clients.",
     span: "col-span-2 row-span-1",
   },
   {
-    title: "Skill Validation",
-    medium: "Step 6",
-    description: "Skills are evaluated based on actual project contributions.",
+    title: "No-Code UI",
+    medium: '6',
+    description: "Constraint-based templates ensure your portfolio looks professional with zero drag-and-drop effort.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Portfolio Creation",
-    medium: "Step 7",
-    description: "Completed work is added as verified project experience.",
+    title: "Deployment",
+    medium: '7',
+    description: "Publish immediately to a live buildfolio.com URL that is always online and up to date.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Growth & Opportunities",
-    medium: "Step 8",
-    description: "Skilled users unlock advanced projects and career opportunities.",
+    title: "Deal Closer",
+    medium: '8',
+    description: "Integrated analytics track views, while Hire Me buttons drive contracts directly to your inbox.",
     span: "col-span-1 row-span-1",
   },
 ]
@@ -200,7 +200,6 @@ export function WorkSection() {
           </h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          after 12 hours of intense thoughtprocess
         </p>
       </div>
 
