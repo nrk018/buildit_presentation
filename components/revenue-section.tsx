@@ -15,22 +15,27 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your revenue ideas. Each item becomes one card in the horizontal scroll. */
 const revenueModels = [
   {
-    title: "Project-Based Commission",
-    description: "The platform earns a commission from the project enrollment fee paid by learners.",
+    title: "Project Enrollment Fee",
+    description:
+      "Learners pay a small fee to enroll in verified, mentor-led real-world projects. This ensures commitment and filters serious participants.",
   },
   {
-    title: "Pro Subscription (AI-Powered Features)",
-    description: "Users can upgrade to a premium plan to access AI-assisted learning tools, code insights, and progress analytics.",
+    title: "Mentor Revenue Share",
+    description:
+      "Mentors receive a share of the project enrollment fee for guiding learners and reviewing progress, creating a fair incentive model.",
   },
   {
-    title: "Paid Mentorship Support",
-    description: "Learners can opt for additional one-on-one or on-demand mentor assistance for specific technical challenges.",
+    title: "Premium Learning Tools (Future Scope)",
+    description:
+      "Advanced features such as AI-assisted feedback, detailed progress analytics, and personalized learning paths can be offered as premium add-ons.",
   },
   {
-    title: "Micro-Revenue Streams",
-    description: "Small-value earnings generated through add-ons such as certifications, advanced project access, and premium learning tools.",
+    title: "Recruiter Access (Long-Term)",
+    description:
+      "Companies may pay to access verified project portfolios and skill-based candidate filtering instead of relying on traditional resumes.",
   },
 ]
+
 
 export function RevenueSection() {
   const scrollRef = useRef<HTMLDivElement>(null)
