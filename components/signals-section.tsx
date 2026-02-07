@@ -15,33 +15,33 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "FRAGMENTED COMMUNICATION",
+    note: "UNIVERSITEIS rely on multiple platforms like whatsapp, emails and notice boards,causing imformation to get lost ",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "Missed Announcements",
+    note: "Students often miss exam schedules, deadlines and event updates due tot he lak of a central system",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "Inefficient Event Coordination",
+    note: "Clubs and departments struggle to manage event registrations, updates, and participation effectively.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
+    title: "Disconnected Stakeholders",
+    note: "Students, faculty, and administration work in silos without a unified platform connecting them.",
   },
   {
     date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
+    title: "Information Overload",
+    note: "Important updates get buried under casual messages, making it hard to identify what truly matters.",
   },
   {
     date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
+    title: "No Official Digital Hub",
+    note: "Universities lack a trusted single platform for announcements, collaboration, and engagement.",
   },
 ]
 

@@ -61,14 +61,14 @@ export function VideoSection() {
       <div ref={headerRef} className="mb-12 pr-6 md:pr-12">
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02.5 / Video</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
-          PROJECT REVIEW <span className="text-accent">VIDEO</span>
+         UNISYNC <span className="text-accent">DEMO</span>
         </h2>
       </div>
 
       {/* Instructional text — you can change or remove this. */}
       <div className="mb-10 pr-6 md:pr-12 max-w-3xl">
         <p className="font-mono text-sm text-muted-foreground leading-relaxed">
-          Make a video asking review of your project—how it is helpful to your customer who could use it, or in general to your friends. Take feedbacks and add it in your video.
+          This section will showcase a walkthrough of UniSync, demonstrating how centralized announcements, event management, and real-time notifications simplify university communication.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export function VideoSection() {
         className="relative w-full max-w-4xl pr-6 md:pr-12 aspect-video bg-card border border-border/50 flex items-center justify-center"
       >
         <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-          Video placeholder — add your review video embed URL here
+          UniSync Demo Video — Coming Soon
         </p>
       </div>
     </section>

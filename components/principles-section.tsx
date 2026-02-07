@@ -19,57 +19,52 @@ export function PrinciplesSection() {
 
   /** Your MVP list. titleParts lets you mark which word gets the fancy highlight effect. */
   const mvps = [
-    {
-      number: "01",
-      titleParts: [
-        { text: "MVP 1: Project-Based ", highlight: false },
-        { text: "LEARNING", highlight: true },
-        { text: " Core", highlight: false },
-      ],
-      description: "Project listing by mentors • Student project enrollment • Basic task structure • GitHub-based submissions • Manual review & feedback",
-      align: "left",
-    },
-    {
-      number: "02",
-      titleParts: [
-        { text: "MVP 2: ", highlight: false },
-        { text: "MENTORSHIP", highlight: true },
-        { text: " & Progress Tracking", highlight: false },
-      ],
-      description: "Mentor–student assignment • Weekly progress check-ins • Simple skill tagging • Completion status tracking",
-      align: "right",
-    },
-    {
-      number: "03",
-      titleParts: [
-        { text: "MVP 3: ", highlight: false },
-        { text: "PORTFOLIO", highlight: true },
-        { text: " Generation", highlight: false },
-      ],
-      description: "Auto-generated project portfolio • Tech stack display • Contribution summary • Shareable profile link",
-      align: "left",
-    },
-    {
-      number: "04",
-      titleParts: [
-        { text: "MVP 4: ", highlight: false },
-        { text: "RECRUITER", highlight: true },
-        { text: " View (Lite Version)", highlight: false },
-      ],
-      description: "View verified projects • Skill-based filtering • Contact / shortlist option",
-      align: "right",
-    },
-    {
-      number: "05",
-      titleParts: [
-        { text: "MVP 5: ", highlight: false },
-        { text: "MONETIZATION", highlight: true },
-        { text: " Layer", highlight: false },
-      ],
-      description: "Project-based enrollment fee • Mentor payout system • Basic admin controls",
-      align: "left",
-    },
-  ]
+  {
+    number: "01",
+    titleParts: [
+      { text: "Centralized ", highlight: false },
+      { text: "ANNOUNCEMENTS", highlight: true },
+      { text: " System", highlight: false },
+    ],
+    description:
+      "All university notices, circulars, and updates delivered through one unified platform—no more missed messages or scattered channels.",
+    align: "left",
+  },
+  {
+    number: "02",
+    titleParts: [
+      { text: "Event & ", highlight: false },
+      { text: "CLUB", highlight: true },
+      { text: " Management", highlight: false },
+    ],
+    description:
+      "Departments and student clubs can create, manage, and promote events while students can easily discover and register for them.",
+    align: "right",
+  },
+  {
+    number: "03",
+    titleParts: [
+      { text: "Real-Time ", highlight: false },
+      { text: "NOTIFICATIONS", highlight: true },
+      { text: "", highlight: false },
+    ],
+    description:
+      "Instant alerts for deadlines, schedule changes, and urgent announcements ensure timely communication across campus.",
+    align: "left",
+  },
+  {
+    number: "04",
+    titleParts: [
+      { text: "Role-Based ", highlight: false },
+      { text: "ACCESS", highlight: true },
+      { text: " Control", highlight: false },
+    ],
+    description:
+      "Admins, faculty, and students have distinct permissions, ensuring secure, relevant, and controlled information flow.",
+    align: "right",
+  },
+]
+
 
   /**
    * Scroll animations: header slides in, then each MVP block slides in from left or right

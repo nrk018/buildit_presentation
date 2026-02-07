@@ -5,13 +5,14 @@ import { cn } from "@/lib/utils"
 
 const navItems = [
   { id: "hero", label: "BUILDIT" },
-  { id: "signals", label: "PROBLEMS BEING ADDRESSED" },
+  { id: "signals", label: "PROBLEMS" },
   { id: "work", label: "SOLUTION" },
   { id: "video", label: "VIDEO" },
   { id: "principles", label: "MVP" },
-  { id: "revenue", label: "REVENUE MODEL" },
+  { id: "revenue", label: "REVENUE" },
   { id: "colophon", label: "CREDITS" },
 ]
+
 
 export function SideNav() {
   const [activeSection, setActiveSection] = useState("hero")
